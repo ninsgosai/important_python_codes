@@ -45,4 +45,4 @@ destination_path = ""
 skip_extensions = [".pyc", ".log"]
 skip_folders = ["migrations", "env", "venv"]
 
-copy_files_and_folders(destination_path,source_path , skip_extensions, skip_folders)
+copy_files_and_folders(source_path,destination_path , skip_extensions, skip_folders)
